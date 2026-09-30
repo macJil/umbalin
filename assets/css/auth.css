@@ -1,0 +1,110 @@
+
+.actions button,
+.edit-btn,
+.delete-btn {
+  display: inline-block !important;
+  padding: 6px 10px;
+  margin: 4px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #dc2626 !important;
+}
+
+.edit-btn {
+  background: #f59e0b !important;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+body {
+  background: linear-gradient(135deg, #3a7bd5, #3a6073);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.auth-container {
+  background: #fff;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 350px;
+}
+
+.auth-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, select {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.7rem;
+  background-color: #3a7bd5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #2f64a0;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+.success {
+  color: #155724;
+  background: #d4edda;
+  border: 1px solid #c3e6cb;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: #721c24;
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#email-message {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
